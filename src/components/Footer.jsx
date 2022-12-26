@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
     return (
-        <div className="card bg-dark text-white" >
+        <div className="p-3 bg-dark text-white" >
             
                 <div className="card-body">
                 <hr />
