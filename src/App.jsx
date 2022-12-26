@@ -45,6 +45,18 @@ function App() {
             imagen="https://images.pexels.com/photos/17811/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600"
             descripcion="Ave" />
         </div>
+        <div className='col'>
+          <Card
+            titulo="Pitón"
+            imagen="https://images.pexels.com/photos/45246/green-tree-python-python-tree-python-green-45246.jpeg?auto=compress&cs=tinysrgb&w=600"
+            descripcion="Reptil" />
+        </div>
+        <div className='col'>
+          <Card
+            titulo="Medusa"
+            imagen="https://images.pexels.com/photos/67826/jellyfish-luminous-jellyfish-light-light-phenomenon-67826.jpeg?auto=compress&cs=tinysrgb&w=600"
+            descripcion="Celenterio" />
+        </div>
 
       </div>
 
