@@ -2,12 +2,12 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 import Card from './components/Card';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Card />
+      
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -22,6 +22,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <Header />
+      <Card />
+      <Footer />
     </div>
   );
 }
